@@ -1,0 +1,20 @@
+import React, { useState } from 'react'
+
+const TextArea = () => {
+    const [textArea, setTextArea] = useState(
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, voluptas mollitia? Omnis neque amet reiciendis ea ut nulla molestiae quaerat voluptatibus labore porro delectus, totam sapiente veritatis vero repellendus consequuntur sunt consequatur earum dicta placeat alias esse vitae iste! Voluptatibus ipsa delectus aliquam earum excepturi consequuntur sit nostrum molestiae adipisci beatae. Quidem cumque enim dolores mollitia, animi dolorem fuga similique, cupiditate molestias dolor placeat officia veritatis temporibus fugit eum labore eveniet? Sapiente, odit explicabo voluptatem enim doloribus ipsum earum eos nesciunt commodi voluptatibus dolore perspiciatis quidem nemo harum natus sequi deleniti! Non obcaecati facere assumenda neque itaque dolorum sunt, id placeat earum totam officia doloremque quas consectetur culpa omnis hic nisi, cupiditate eveniet ducimus ab esse, necessitatibus sit expedita beatae. Vero, ipsum veniam, atque magni sint animi quisquam minus facere eos expedita earum inventore harum architecto voluptates tempore distinctio consequatur repellendus? Veritatis quam eum doloremque tempora deleniti eaque quibusdam! Sequi nostrum aperiam autem voluptatem reiciendis, eos, in corrupti eius, voluptate dolorum et aliquam culpa aut natus modi vero? Et in temporibus voluptates error velit. Tenetur quo voluptas dolorum obcaecati, odio distinctio optio sit, non ratione consequatur nulla, aspernatur pariatur quidem! Doloremque ad doloribus, quos quod distinctio blanditiis ullam, ipsa, mollitia molestias magnam obcaecati! Excepturi qui explicabo alias, nisi accusamus quidem ipsam mollitia animi, nesciunt cupiditate debitis perspiciatis vel quaerat soluta molestiae beatae nemo! Quis quod enim doloremque, explicabo ad at saepe provident illum architecto numquam iste asperiores reiciendis officia, magni nemo et aliquid. Dolorum quidem est a, totam vero porro ullam qui nisi id sequi, modi blanditiis! Similique, excepturi pariatur rem doloremque inventore odit repellendus sapiente ullam voluptates iusto a, unde necessitatibus quas? Qui reiciendis beatae libero eos porro est illum optio expedita? Debitis commodi voluptatem harum quos voluptate? Maxime saepe quas, sit atque pariatur qui facilis ab! Labore veniam facilis eius minus sequi commodi fugiat, ratione repellat dolores delectus tenetur non, ipsam officiis adipisci reiciendis eaque. Earum vel accusantium sed explicabo provident? Est quidem possimus, odit saepe enim ipsum omnis temporibus et, recusandae ipsa odio voluptatem deserunt eos doloribus fugiat quasi, repellendus eius iusto quisquam maxime quos molestiae nesciunt doloremque reprehenderit? Ipsam quis sapiente, nesciunt obcaecati minima nam cum sit dolorum odio aliquid id atque quas, ipsa ratione. Accusamus totam iste rem cum accusantium ducimus, tenetur omnis non deleniti beatae praesentium optio necessitatibus distinctio. Deleniti doloremque neque tempore dolorem iste iure vero odit, vel eos consequatur voluptatibus quis unde rem et cum architecto voluptas maxime quae ullam ducimus eveniet! Quibusdam eos nihil sit distinctio minima quas ratione sed dignissimos aut. Possimus accusamus ipsum qui eius. Impedit soluta magni esse saepe cupiditate quas laborum nostrum doloribus? Blanditiis, cum! Voluptate quibusdam nostrum nihil eveniet atque libero aspernatur, itaque reiciendis architecto, repellendus error quasi non velit, ea amet? Saepe natus enim facere obcaecati, perferendis eaque? Tenetur rerum minima nam vitae vel ex eum deleniti nulla laudantium impedit perferendis quo, quidem itaque quos doloribus accusamus id, voluptatibus rem, ducimus quia assumenda aut. Illo inventore velit doloremque eos obcaecati non quae modi molestias facilis."
+    )
+    
+    const handleChange = (event) => {
+        setTextArea(event.target.value)
+    }
+
+  return (
+    <form>
+        <h1> Text Area </h1>
+        <textarea value={textArea} onChange={handleChange} />
+    </form>
+  )
+}
+
+export default TextArea;

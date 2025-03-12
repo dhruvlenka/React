@@ -1,0 +1,6 @@
+#card {
+    height: 205px;
+    width: 205px;
+    border: 2px solid  black;
+    margin: 20px auto;
+}

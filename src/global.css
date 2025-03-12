@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+button {
+    padding: 20;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-radius: 10%;
+    background-color:gray;
+}

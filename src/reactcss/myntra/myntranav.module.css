@@ -1,0 +1,25 @@
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black
+
+}
+.logo {
+    width: 14%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 10px;
+}
+img {
+    height: 100%;
+}
+ul {
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    height: 100%;
+}
