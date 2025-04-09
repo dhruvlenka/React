@@ -1,10 +1,9 @@
-import MyntraNav from "./reactcss/myntra/MyntraNav";
+import Counter from "./reduxxx/Counter";
 
 const App = () => {
     return (
         <div>
-          <MyntraNav></MyntraNav>
-       
+         <Counter/>
         </div>
         
     )

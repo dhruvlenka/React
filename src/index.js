@@ -1,9 +1,13 @@
-import { createRoot} from "react-dom/client";
-import App from "./App";
-import "./global.css"
+// index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import App from './App';
+import store from './reduxxx/store'; 
 
-//div: var, root: public/index.html, root is mutable you can take anything
-let div = document.getElementById("root");
-
-//calling div and rendering App.jsx on root
-createRoot(div).render(<App></App>);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <Provider store={store}>
+    <App />
+  </Provider>
+);
